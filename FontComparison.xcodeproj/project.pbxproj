@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 60;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
@@ -29,8 +29,18 @@
 		3855A0B42C942CB8007707E6 /* FontComparisonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontComparisonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		3855A0F12C943C3F007707E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 3855A0982C942CB6007707E6 /* FontComparison */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		3855A09B2C942CB6007707E6 /* FontComparison */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FontComparison; sourceTree = "<group>"; };
+		3855A09B2C942CB6007707E6 /* FontComparison */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (3855A0F12C943C3F007707E6 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = FontComparison; sourceTree = "<group>"; };
 		3855A0AD2C942CB8007707E6 /* FontComparisonTests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FontComparisonTests; sourceTree = "<group>"; };
 		3855A0B72C942CB8007707E6 /* FontComparisonUITests */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = FontComparisonUITests; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -383,6 +393,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontComparison/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -422,6 +433,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FontComparison/Info.plist;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
